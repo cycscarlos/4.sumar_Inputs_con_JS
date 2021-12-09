@@ -1,0 +1,84 @@
+/*: Estilos de la clase de Javascript */
+
+.box {
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 30px;
+  width: 70%;
+  min-height: 100%;
+  color: var(--text-color);
+  border-radius: 5px;
+  border: 0.1px solid var(--text-color);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+input {
+  width: 80px;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 2em;
+  border: 1px dotted var(--color-hard);
+  color: var(--color-light);
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
+}
+button {
+  padding: 5px 5px;
+  margin: 0 50px;
+  font-size: 1.2em;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid var(--color-middle);
+  background-color: var(--color-middle);
+  color: var(--text-color);
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.simbolo {
+  font-size: 1.8em;
+  margin: 0 30px;
+}
+.resultados {
+  margin: 0 auto;
+  width: 70%;
+  min-height: 100px;
+  padding: 30px;
+  font-size: 1.5em;
+  margin-top: 8px;
+  color: var(--text-color);
+  border: 3px solid aqua;
+}
+.verde {
+  color: greenyellow;
+}
+.rojo {
+  color: crimson;
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  .box {
+    width: 90%;
+  }
+  .simbolo {
+    font-size: 1.8em;
+    margin: 0 auto;
+  }
+  input {
+    width: 60px;
+    font-size: 1.5em;
+    margin: 0 auto;
+  }
+  button {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+}

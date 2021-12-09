@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Javascript Forever | Javascript Learning</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="https://carlos-colmenares-a.netlify.app" />
+
+    <link rel="stylesheet" href="./assets/css/styleGral.css" />
+    <link rel="stylesheet" href="./assets/css/styleClase.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <script src="https://use.fontawesome.com/698a367122.js"></script>
+    <script defer src="./assets/js/app_v1.js"></script>
+  </head>
+  <body>
+    <!--: Header & Menu Navigation -->
+    <header>
+      <div class="Grid-container">
+        <div class="profile">
+          <a href="#" class="logo">
+            <img
+              width="96"
+              height="72"
+              src="assets/img/logoFoto.JPG"
+              alt="Software Developer"
+            />
+
+            <div class="logotext">
+              zCoder!<br /><span>...on Social Media</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="phone">
+          <i class="fa fa-phone" aria-hidden="true">0414.324.63.96</i>
+          <p>Carlos Colmenares A.</p>
+        </div>
+      </div>
+    </header>
+
+    <!--: Cuerpo Principal para el desarrollo de la clase -->
+    <main>
+      <div class="Grid_titles">
+        <h1 class="titulo">Javascript Learning</h1>
+        <h2 class="clase">Seriado: #4</h2>
+        <ol class="contenido">
+          <li>
+            Se crearan tres INPUT, dos en modo READONLY, <br />para cargar allí
+            números aleatorios producidos por<br />
+            la función Math.random()
+          </li>
+          <li>
+            El otro INPUT es para que el usuario coloque el <br />
+            resultado de la suma de los dos númeroas aleatorios
+          </li>
+          <li>
+            Se valiarán las sumas y en un DIV aparte se colocarán<br />
+            los resultados y un mensaje de si la suma fue o no<br />
+            correcta
+          </li>
+          <li>
+            Así mismo, se colocará color rojo al texto, <br />si la respuesta
+            fue incorrecta o verde si fue correcta
+          </li>
+          <li>
+            Se crearán funciones para no repetir codigo, <br />y las mismas se
+            ejecutarán en la función de INICIO
+          </li>
+          <li>
+            Se contruyeron dos APPs que hacen los mismo pero<br />
+            de diferente manera!
+          </li>
+        </ol>
+      </div>
+      <section>
+        <div class="box">
+          <input class="uno" readonly />
+          <span class="simbolo">+</span>
+          <input class="dos" readonly />
+          <span class="simbolo">=</span>
+          <input class="tres" />
+          <button class="boton">Comprobar</button>
+        </div>
+        <div class="resultados"></div>
+      </section>
+    </main>
+  </body>
+</html>
