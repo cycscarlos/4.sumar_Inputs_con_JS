@@ -2,12 +2,12 @@
 
 .box {
   margin: 0 auto;
-  margin-top: 20px;
-  padding: 30px;
+  margin-top: 1.25rem;
+  padding: 1.875rem;
   width: 70%;
   min-height: 100%;
   color: var(--text-color);
-  border-radius: 5px;
+  border-radius: 0.31rem;
   border: 0.1px solid var(--text-color);
   text-align: center;
   display: flex;
@@ -15,10 +15,10 @@
   flex-wrap: wrap;
 }
 input {
-  width: 80px;
+  width: 5rem;
   text-align: center;
-  padding: 5px 10px;
-  border-radius: 5px;
+  padding: 0.31rem 0.625rem;
+  border-radius: 0.31rem;
   outline: none;
   font-size: 2em;
   border: 1px dotted var(--color-hard);
@@ -27,12 +27,12 @@ input {
   margin: 0 auto;
 }
 button {
-  padding: 5px 5px;
-  margin: 0 50px;
+  padding: 0.31rem 0.31rem;
+  margin: 0 3.125rem;
   font-size: 1.2em;
   outline: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 0.31rem;
   border: 1px solid var(--color-middle);
   background-color: var(--color-middle);
   color: var(--text-color);
@@ -44,13 +44,13 @@ button:hover {
 
 .simbolo {
   font-size: 1.8em;
-  margin: 0 30px;
+  margin: 0 1.875rem;
 }
 .resultados {
   margin: 0 auto;
   width: 70%;
-  min-height: 100px;
-  padding: 30px;
+  min-height: 6.25rem;
+  padding: 1.875rem;
   font-size: 1.5em;
   margin-top: 8px;
   color: var(--text-color);
@@ -72,13 +72,13 @@ button:hover {
     margin: 0 auto;
   }
   input {
-    width: 60px;
+    width: 3.75rem;
     font-size: 1.5em;
     margin: 0 auto;
   }
   button {
     width: 50%;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 3.125rem;
   }
 }
